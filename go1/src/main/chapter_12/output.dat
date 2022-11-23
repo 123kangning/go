@@ -1,0 +1,14 @@
+package main
+
+import (
+	"fmt"
+	"os"
+)
+
+func main() {
+	pwd, err := os.Getwd()
+	if err == nil {
+		fmt.Printf("user.dir = %s", pwd)
+	}
+
+}
