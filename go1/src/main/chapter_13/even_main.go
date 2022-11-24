@@ -1,7 +1,7 @@
 package main
 
 import (
-	"even/even"
+	"even"
 	"fmt"
 )
 
