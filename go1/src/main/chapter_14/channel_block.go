@@ -8,13 +8,13 @@ import (
 var cnt = 0
 
 func main() {
-	ch1 := make(chan int)
+	ch1 := make(chan int, 5)
 	go pump(ch1) // pump hangs
-	go func(ch1 chan int) {
+	/*go func(ch1 chan int) {
 		for {
 			fmt.Println("for ", <-ch1)
 		}
-	}(ch1)
+	}(ch1)*/
 	fmt.Println(<-ch1) // prints only 0
 
 	time.Sleep(time.Second)
