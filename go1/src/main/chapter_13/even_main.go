@@ -1,8 +1,8 @@
 package main
 
 import (
-	"even"
 	"fmt"
+	"main/chapter_13/even"
 )
 
 func main() {
