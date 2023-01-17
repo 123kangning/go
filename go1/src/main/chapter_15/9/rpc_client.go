@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
+	"go1/main/chapter_15/9/rpc_objects"
 	"log"
-	"main/chapter_15/9/rpc_objects"
 	"net/rpc"
 )
 
