@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go1/main/chapter_15/9/rpc_objects"
+	"go/go1/src/main/chapter_15/9/rpc_objects"
 	"log"
 	"net/rpc"
 )

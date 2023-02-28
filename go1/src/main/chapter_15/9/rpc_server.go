@@ -1,8 +1,8 @@
 package main
 
 import (
+	"go/go1/src/main/chapter_15/9/rpc_objects"
 	"log"
-	"main/chapter_15/9/rpc_objects"
 	"net"
 	"net/http"
 	"net/rpc"
